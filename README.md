@@ -1,7 +1,18 @@
 ## Kira Widget Options Framework
 There are 2 ways to include **Kira** into your project. First is by using it as a plugin; second is by embedding it in your project.
 
+#### Available Fields
+
+ - Text
+ - Textarea
+ - Color
+ - Select
+ - Radio
+ - Checkbox
+
 #### Creating Options
+Use the following fields inside `form` method like this:
+
     global $kira_widget_options_framework;
     
     // Text
